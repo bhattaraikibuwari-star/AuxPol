@@ -1,0 +1,68 @@
+import { Badge } from '../types';
+
+export const SYSTEM_BADGES: Badge[] = [
+  {
+    id: 'first_inquiry',
+    name: 'Curious Scholar',
+    description: 'Initiated your first dialogue with PolitiBot on political philosophy or governance.',
+    icon: '💡',
+    category: 'Dialogue',
+    pointsRequired: 20,
+  },
+  {
+    id: 'kautilya_scholar',
+    name: 'Saptanga Strategist',
+    description: 'Mastered Kautilya’s 7 limbs of the sovereign state in Arthashastra.',
+    icon: '👑',
+    category: 'Indian Thought',
+    pointsRequired: 80,
+  },
+  {
+    id: 'constitutional_guardian',
+    name: 'Constitutional Guardian',
+    description: 'Scored 100% on the Indian Constitutional Rights & Basic Structure Quiz.',
+    icon: '📜',
+    category: 'Constitution',
+    pointsRequired: 150,
+  },
+  {
+    id: 'aristotle_logician',
+    name: 'Aristotelian Logician',
+    description: 'Analyzed comparative constitutions across parliamentary and presidential systems.',
+    icon: '⚖️',
+    category: 'Comparative',
+    pointsRequired: 200,
+  },
+  {
+    id: 'diplomatic_strategist',
+    name: 'Diplomatic Envoy',
+    description: 'Completed deep exploration of International Relations paradigms and global order.',
+    icon: '🌐',
+    category: 'International Relations',
+    pointsRequired: 280,
+  },
+  {
+    id: 'knowledge_architect',
+    name: 'Curriculum Architect',
+    description: 'Successfully inputted and upgraded a knowledge module in the Professor’s Matrix.',
+    icon: '🧠',
+    category: 'Knowledge',
+    pointsRequired: 350,
+  },
+  {
+    id: 'streak_master',
+    name: 'Auxilium Honors Scholar',
+    description: 'Maintained a consistent political science study streak of 3 or more milestones.',
+    icon: '🔥',
+    category: 'Dedication',
+    pointsRequired: 450,
+  },
+  {
+    id: 'auxilium_gold',
+    name: 'Auxilium Department Laureate',
+    description: 'Accumulated over 600 XP across quizzes, debates, and knowledge upgrades.',
+    icon: '🏆',
+    category: 'Mastery',
+    pointsRequired: 600,
+  },
+];

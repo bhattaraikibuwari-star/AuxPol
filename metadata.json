@@ -1,0 +1,6 @@
+{
+  "name": "PolitiBot - Virtual Political Science Robot",
+  "description": "Interactive Political Science Virtual Robot created by Mr. Ranjit Bhattarai Chetry, Assistant Professor, Department of Political Science, Auxilium College, Udalguri. Features custom knowledge base upgrades, interactive simulations, and scholarly debate.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
